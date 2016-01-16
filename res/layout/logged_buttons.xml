@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_weight="0.25"
+        android:onClick="selectFunct"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/przerwa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_weight="0.25"
+        android:onClick="selectFunct"
+        android:text="Przerwa" />
+
+    <Button
+        android:id="@+id/zakoncz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_weight="0.25"
+        android:onClick="selectFunct"
+        android:text="Zakończ" />
+
+    <Button
+        android:id="@+id/zgloszenie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_weight="0.25"
+        android:onClick="selectFunct"
+        android:text="Zgłoszenie zdarzenia" />
+
+</LinearLayout>

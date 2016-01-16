@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PUM2016</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_off">Wyłącz</string>
+    <string name="possitiveSet">Ustaw hasło</string>
+    <string name="possitiveSetInfo">Wyślij zdarzenie</string>
+    <string name="negativeSet">Anuluj</string>
+
+</resources>

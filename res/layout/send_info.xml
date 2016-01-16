@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/wypadek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_weight="0.20"
+        android:onClick="selectFunctSendView"
+        android:text="Wypadek" />
+
+    <Button
+        android:id="@+id/korek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_weight="0.20"
+        android:onClick="selectFunctSendView"
+        android:text="Korek" />
+
+    <Button
+        android:id="@+id/objazd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_weight="0.20"
+        android:onClick="selectFunctSendView"
+        android:text="Objazd" />
+
+    <Button
+        android:id="@+id/postoj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_weight="0.20"
+        android:onClick="selectFunctSendView"
+        android:text="Postój" />
+
+    <Button
+        android:id="@+id/inne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_weight="0.20"
+        android:onClick="selectFunctSendView"
+        android:text="Inne" />
+
+</LinearLayout>
